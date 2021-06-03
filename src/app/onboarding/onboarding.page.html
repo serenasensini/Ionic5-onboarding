@@ -1,0 +1,59 @@
+<ion-header>
+
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-slides pager="true">
+    <ion-slide class="ion-padding">
+      <img src="../../assets/slide1.png" >
+
+      <div class="slider-text">
+        <h2>Spiaggia, arrivo!</h2>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Nulla ultricies, erat vitae
+          porta consequat.
+        </p>
+      </div>
+
+      <div class="navigator">
+        <ion-button color="primary" fill="clear" (click)="skip()">SALTA</ion-button>
+        <ion-button color="primary" fill="clear" (click)="next()">AVANTI</ion-button>
+      </div>
+    </ion-slide>
+    <ion-slide class="ion-padding">
+      <img src="../../assets/slide2.png" >
+
+      <div class="slider-text">
+        <h2>Non vedo l'ora di mangiare gelato...</h2>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Nulla ultricies, erat vitae
+          porta consequat.
+        </p>
+      </div>
+
+      <div class="navigator">
+        <ion-button color="primary" fill="clear" (click)="skip()">SALTA</ion-button>
+        <ion-button color="primary" fill="clear" (click)="next()">AVANTI</ion-button>
+      </div>
+    </ion-slide>
+    <ion-slide class="ion-padding">
+      <img src="../../assets/slide3.png" >
+
+      <div class="slider-text">
+        <h2>...e nuotare nel mare!</h2>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Nulla ultricies, erat vitae
+          porta consequat.
+        </p>
+      </div>
+
+      <ion-button color="primary" [routerLink]="'/home'">Andiamo!</ion-button>
+    </ion-slide>
+  </ion-slides>
+</ion-content>
